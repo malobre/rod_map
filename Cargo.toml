@@ -1,0 +1,13 @@
+[package]
+name = "rod_map"
+description = "Maps that automatically removes entries when their handle is dropped"
+version = "0.1.0"
+authors = ["Maël Obréjan <mael.obrejan@protonmail.com>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+log = "0.4"
+async-std = "1.7"
+futures = "0.3"
